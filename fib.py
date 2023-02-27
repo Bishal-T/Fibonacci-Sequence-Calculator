@@ -11,7 +11,7 @@ count = 0
 
 start_time = time.time()
 
-while count <= nth_term:
+while count < nth_term:
 
     next_term = first_term + second_term
     first_term = second_term 
